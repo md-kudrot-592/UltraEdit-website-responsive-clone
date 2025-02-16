@@ -29,9 +29,69 @@ nav ul li{
 
 }
 
-img{
+.imgs{
     height: 200px;
     width: 250px;
     margin-top: -120px;
     margin-right: 300px;
 }
+/* Nav End**************************************** */
+
+.first{
+    display: flex;
+    /* background: #ce5e5e; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: -10px;
+    font-family: sans-serif;
+}
+
+.first span{
+    font-size: 40px;
+}
+
+.img2{
+    width: 102px;
+    height: 35px;
+    margin: 0 10px;
+}
+
+.p1{
+    font-size: 23px;
+    width: 77vw;
+    text-align: center;
+}
+
+.btn1{
+    background:#00b6d1;
+    color: white;
+    padding: 5px 10px;
+    border: none;   
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;  
+    font-family: sans-serif;  
+
+}
+
+/* ****************************end and start section2******************************* */
+
+.small{
+    font-size: 12px;
+
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+ 
+
+
