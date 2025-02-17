@@ -72,9 +72,19 @@ nav ul li{
     border-radius: 5px;
     height: 30px;
     font-size: 15px;  
-    font-family: sans-serif;  
+    font-family: sans-serif; 
+    margin: 12px 0; 
+    cursor: pointer;
 
 }
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 /* ****************************end and start section2******************************* */
 
@@ -91,12 +101,24 @@ nav ul li{
 
 }
 
-.download span{
+/* .download span{
     margin: 20px;
     margin-top: 107px;
     
     
+} */
+
+.download{
+    display: flex;
+    font-family: serif;
+    gap: 10px;
+    align-items: center;
+
 }
+.download :nth-child(2){
+    font-size: 23px;
+}
+
 
 .uelogo{
 
@@ -137,6 +159,14 @@ nav ul li{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:12px
+}
+
+@media screen and (max-width: 1268px){
+    .grid{
+        grid-template-columns: 1fr;
+        
+    }
+    
 }
 
 
